@@ -39,7 +39,7 @@
         for( i=0;i<=5;i++)
         {
           try {
-            Thread.sleep(2000);
+            Thread.sleep(1000);
             System.out.println(currentThread().getName()+" "+i );
           }
            catch (Exception e) { 
