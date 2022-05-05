@@ -70,6 +70,7 @@ q.enque(2);
 q.enque(3);
 q.enque(4);
 q.enque(5);
+q.enque(7);
 q.deque();
 
     }
