@@ -30,7 +30,7 @@ boolean isFull()
     {
         if(front==-1){
         System.out.println("empty queue no value present at front");
-        return;
+        return 0;
         }
         else
         return arr[front];
@@ -39,7 +39,7 @@ boolean isFull()
     {
         if (rear==-1){
         System.out.println("no value at rear ,queue is empty");
-        return ;
+        return 0;
     }
     else 
     return arr[rear];

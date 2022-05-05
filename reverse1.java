@@ -1,5 +1,7 @@
 import static java.lang.System.*;
 
+import java.net.SocketPermission;
+
 class reverse1 {
     node head = null, newnode = null;
 
@@ -50,7 +52,8 @@ class reverse1 {
     }
 
     public static void main(String[] args) {
-        out.println("HERE!!!");
+      System.out.println("HERE!!!");
+SYstem.out.println("HEY YOU THERE");
         reverse1 r = new reverse1();
         r.push(5);
         r.push(8);
