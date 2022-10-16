@@ -18,5 +18,6 @@ class linque {
 
         System.out.println("Local change");
         System.out.println("Server change");
+        System.out.println("Cute kiddo");
     }
 }
