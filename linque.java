@@ -15,6 +15,8 @@ class linque {
         System.out.println(arr.stream().map(n -> n * n).collect(Collectors.toList()));
         System.out.println(arr.stream().filter(n -> n % 2 == 0).collect(Collectors.toList()));
         arr.stream().forEach(n -> System.out.println(n));
+
         System.out.println("Local change");
+        System.out.println("Server change");
     }
 }
